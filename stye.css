@@ -1,0 +1,35 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+.container{ 
+    max-width: 1220px; 
+    margin: 0 auto; 
+}
+body{
+    background-color:#1F242D;
+}
+header{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header h1{
+    color: white;
+    margin-right: 300px;
+}
+.texts{
+    color: white;
+}
